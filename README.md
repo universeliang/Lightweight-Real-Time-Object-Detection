@@ -7,4 +7,12 @@ Due to unfavorable factors such as cluttered spatial and temporal distribution o
 # Tips
 Thank you all for your interest in our work. Here is our project repository containing the source code and relevant materials. We encourage you to review its contents thoroughly and should you encounter any questions, or issues, or require assistance, please do not hesitate to contact us promptly.
 
-This repository holds the implementation details corresponding to our article addressing ['Object detection']. It encompasses the codebase that we have developed and utilized throughout our research, along with essential datasets and documentation.
+This repository holds the implementation details corresponding to our article addressing ['Traffic Object detection']. It encompasses the codebase that we have developed and utilized throughout our research, along with essential datasets and documentation.
+
+# Start
+
+## train.py
+In this repository, the train.py script serves as the core training module for our model. By directly executing this file, users can initiate the model training process. The script comprehensively includes several key configurable parameters such as the number of epochs for training, batch size for input data processing, and various optimization settings.
+
+## val.py
+The val.py script serves as a pivotal part of the project, aimed at assessing the quality and robustness of the trained model. Upon completion of the training phase, running this script will apply the trained model to a held-out validation set or test set. It typically measures various metrics pertinent to the specific problem domain, such as accuracy, precision, recall, F1 score, or mean squared error, depending on whether the task is classification or regression-based.
