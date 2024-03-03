@@ -12,15 +12,15 @@ This repository holds the implementation details corresponding to our article ad
 # Model Train Start
 
 ## train.py
-In this repository, the train.py script serves as the core training module for our model. By directly executing this file, users can initiate the model training process. The script comprehensively includes several key configurable parameters such as the number of epochs for training, batch size for input data processing, and various optimization settings.
+In this repository, the [**train.py**] script serves as the core training module for our model. By directly executing this file, users can initiate the model training process. The script comprehensively includes several key configurable parameters such as the number of epochs for training, batch size for input data processing, and various optimization settings.
 
 ## val.py
-The val.py script serves as a pivotal part of the project, aimed at assessing the quality and robustness of the trained model. Upon completion of the training phase, running this script will apply the trained model to a held-out validation set or test set. It typically measures various metrics pertinent to the specific problem domain, such as accuracy, precision, recall, F1 score, or mean squared error, depending on whether the task is classification or regression-based.
+The [**val.py**] script serves as a pivotal part of the project, aimed at assessing the quality and robustness of the trained model. Upon completion of the training phase, running this script will apply the trained model to a held-out validation set or test set. It typically measures various metrics pertinent to the specific problem domain, such as accuracy, precision, recall, F1 score, or mean squared error, depending on whether the task is classification or regression-based.
 
 ## detect.py
-The detect.py script within this repository is specifically designed for testing the trained model in practical scenarios.
+The [**detect.py**] script within this repository is specifically designed for testing the trained model in practical scenarios.
 
 # Model Structure
-Within the repository, the overall architecture of the proposed model, along with its key components - GFE, IMFI, and MSA modules - are implemented in the models/common.py file. These modules represent the innovative aspects of our model design that aim to improve its feature extraction and representation capabilities.
+Within the repository, the overall architecture of the proposed model, along with its key components - GFE, IMFI, and MSA modules - are implemented in the [**models/common.py**] file. These modules represent the innovative aspects of our model design that aim to improve its feature extraction and representation capabilities.
 
-For specific details regarding the channel numbers, stacking layers, and positional arrangements of these modules, please refer to the yolov5s_fog_cityscapes.yaml configuration file. This YAML file serves as a centralized hub for defining the architectural specifications of the model. It provides a clear, structured, and easily editable format for adjusting the network's hyperparameters without having to modify the code directly.
+For specific details regarding the channel numbers, stacking layers, and positional arrangements of these modules, please refer to the [**yolov5s_fog_cityscapes.yaml**] configuration file. This YAML file serves as a centralized hub for defining the architectural specifications of the model. It provides a clear, structured, and easily editable format for adjusting the network's hyperparameters without having to modify the code directly.
