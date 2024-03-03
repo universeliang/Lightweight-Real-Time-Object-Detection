@@ -21,6 +21,6 @@ The val.py script serves as a pivotal part of the project, aimed at assessing th
 The detect.py script within this repository is specifically designed for testing the trained model in practical scenarios.
 
 # Model Structure
-Within the repository, the overall architecture of the proposed model, along with its key components - GFE, IMFI, and MSA modules - are implemented in the \textbf{./models/common.py} file. These modules represent the innovative aspects of our model design that aim to improve its feature extraction and representation capabilities.
+Within the repository, the overall architecture of the proposed model, along with its key components - GFE, IMFI, and MSA modules - are implemented in the models/common.py file. These modules represent the innovative aspects of our model design that aim to improve its feature extraction and representation capabilities.
 
-For specific details regarding the channel numbers, stacking layers, and positional arrangements of these modules, please refer to the yolo.yaml configuration file. This YAML file serves as a centralized hub for defining the architectural specifications of the model. It provides a clear, structured, and easily editable format for adjusting the network's hyperparameters without having to modify the code directly.
+For specific details regarding the channel numbers, stacking layers, and positional arrangements of these modules, please refer to the yolov5s_fog_cityscapes.yaml configuration file. This YAML file serves as a centralized hub for defining the architectural specifications of the model. It provides a clear, structured, and easily editable format for adjusting the network's hyperparameters without having to modify the code directly.
