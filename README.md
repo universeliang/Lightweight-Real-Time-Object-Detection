@@ -2,4 +2,6 @@
 Lightweight Real-Time Object Detection via Enhanced Global Perception and Intra-Layer Interaction for Complex Traffic Scenarios
 
 # Tips: 
-We are working on the details of the code and will post the full code as soon as we can!
+Please download the Lightweight-Traffic.zip file directly, unzip it locally, and run it!
+
+If there is any problem, please contact us, we will deal with it in time!
