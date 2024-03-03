@@ -26,5 +26,5 @@ Within the repository, the overall architecture of the proposed model, along wit
 For specific details regarding the channel numbers, stacking layers, and positional arrangements of these modules, please refer to the [**yolov5s_fog_cityscapes.yaml**] configuration file. This YAML file serves as a centralized hub for defining the architectural specifications of the model. It provides a clear, structured, and easily editable format for adjusting the network's hyperparameters without having to modify the code directly.
 
 
-# DATASET
+# Dataset
 In this paper, we utilize the publicly available Cityscapes dataset, and the download link is: [https://www.cityscapes-dataset.com/]
